@@ -144,10 +144,9 @@ transport.server = function server(ansible) {
         var authority = authorityAndCapability[0];
         var domain = _domains[authority];
         if (!domain) {
-            // we don't have the specified domain connected
+            // we don't have the specified domain connected,
             // report to Ansible
-            // FIXME: uncomment once ansible.unregisterDomain() is implemented
-            // ansible.unregisterDomain(authority);
+            ansible.unregisterDomain(authority);
             return;
         }
 
