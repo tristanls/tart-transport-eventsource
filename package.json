@@ -1,6 +1,6 @@
 {
   "name": "tart-transport-eventsource",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "One-way EventSource API transport implementation for tart",
   "scripts": {
     "inject-examples": "node scripts/injectExamples.js",
