@@ -1,0 +1,35 @@
+{
+  "name": "tart-transport-eventsource",
+  "version": "0.0.0",
+  "description": "One-way EventSource API transport implementation for tart",
+  "scripts": {
+    "inject-examples": "node scripts/injectExamples.js",
+    "readme": "node examples/readme.js",
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "discover": "0.1.10",
+    "discover-tcp-transport": "4.0.0",
+    "nodeunit": "0.8.2",
+    "tart": "0.2.0",
+    "tart-ansible": "0.0.2",
+    "tart-tracing": "0.1.5",
+    "tart-transport-http": "0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/tart-transport-eventsource.git"
+  },
+  "keywords": [
+    "tart",
+    "actor",
+    "transport",
+    "eventsource"
+  ],
+  "contributors": [
+    "Dale Schumacher <dale.schumacher@gmail.com>",
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
+}
